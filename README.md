@@ -1,6 +1,6 @@
 # Staking daap project
 
-This project demonstrates a basic  use case of staking token. It comes with solidity contract, a test for that contract, and a script that deploys that contract and also the frontend  part of the application
+This project demonstrates a basic  use case of staking smartcontract. It comes with solidity contract, a test for that contract, and a script that deploys that contract and also the frontend  part of the application
 
 Try running some of the following tasks:
 
