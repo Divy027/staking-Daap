@@ -56,7 +56,7 @@ function StakeDetails() {
   useEffect(() => {
     async function updateUiValues() {
       const rtBalance = (await getRTBalance({ onError: (error) => console.log(error) })).toString();
-      const formattedRtBalance = parseFloat(rtBalance) / 1e18;
+      const formattedRtBalance = parseFloat(rtBalance) / 1e18; // converting from wei to eth(tokens)
       const formattedRtBalaceRounded = formattedRtBalance.toFixed(2);
       setRtBalance(formattedRtBalaceRounded);
 
